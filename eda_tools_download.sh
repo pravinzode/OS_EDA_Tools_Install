@@ -39,7 +39,7 @@ cd ..
 ########################################################
 
 cd ~/eda_tools/ 
-git clone git://opencircuitdesign.com/magic
+git clone https://github.com/RTimothyEdwards/magic.git
 cd magic 
 ./configure
 make 
@@ -89,3 +89,4 @@ cd gaw-yyyymmdd
 ./configure
 sudo make
 sudo make install
+
