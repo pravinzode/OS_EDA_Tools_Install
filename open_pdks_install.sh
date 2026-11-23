@@ -10,8 +10,8 @@ sudo apt -y install yosys
 ## fetch the repository with git:
 cd ~/eda_tools/
 ## fetch the repository with git:
-git clone git://opencircuitdesign.com/open_pdks
-cd open_pdks
+git clone https://github.com/fossi-foundation/open-pdks.git
+cd open-pdks
 ## configure the build, a --prefix option can be given to install
 ## in a different place, by default after installation a 
 ## /usr/local/share/pdk directory is created if no --prefix is provided.
